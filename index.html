@@ -10,17 +10,18 @@ body{
     background-color: black;
 }
 .box {
-  width: 100px;
+  width: 0.5vw;
   height: 100px;
   background: red;
   position: relative;
-  animation: mymove 0.9s;
+  animation: mymove 1s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 @keyframes mymove {
   from {left: 0%;}
-  to {left: 100%;}
+  to {left: 99%;}
 }
 </style>
 </head>
